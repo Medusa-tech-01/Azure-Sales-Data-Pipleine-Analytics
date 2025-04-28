@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-msam-demo01"
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://msamdatalakegen2.dfs.core.windows.net/"
+        },
+        "AzureKeyVault1_properties_typeProperties_baseUrl": {
+            "value": "https://kv-msam-demo01.vault.azure.net/"
+        },
+        "onpremsqlserver_properties_typeProperties_server": {
+            "value": "Medusa\\SQLEXPRESS"
+        },
+        "onpremsqlserver_properties_typeProperties_database": {
+            "value": "AdventureWorksLT2017"
+        },
+        "onpremsqlserver_properties_typeProperties_userName": {
+            "value": "sam"
+        },
+        "AzureDatabricks1_properties_typeProperties_existingClusterId": {
+            "value": "0609-080105-82cse6ta"
+        }
+    }
+}
